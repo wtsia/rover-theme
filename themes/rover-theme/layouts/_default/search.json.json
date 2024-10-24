@@ -1,0 +1,9 @@
+[
+    {
+      "title": "My First Post",
+      "url": "/posts/my-first-post/",
+      "topics": ["Technology", "Hugo"],
+      "content": "Welcome to my first post!"
+    }
+]
+  

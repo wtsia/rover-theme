@@ -1,0 +1,9 @@
+theme = "rover-theme"
+
+[taxonomies]
+  topic = "topics"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+

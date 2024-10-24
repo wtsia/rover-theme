@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <section class="topics">
+    <h2>Topics</h2>
+    <ul>
+      {{ range $name, $taxonomy := .Site.Taxonomies.topics }}
+        <li>
+          <a href="/topics/{{ $name | urlize }}/">{{ $name }}</a>
+          ({{ len $taxonomy }})
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}
